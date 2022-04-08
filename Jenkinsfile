@@ -10,6 +10,7 @@ pipeline {
       steps {
         git([url: 'https://github.com/KishoreRosario/docker-demo.git', branch: 'master'])
       }
+    }
     
     stage('Building image') {
  	    steps {
